@@ -1,0 +1,865 @@
+2013-Aug-27 10:43:40.628387 [INFO]    System: Loading radio: spectrum_wars_rx.xml
+2013-Aug-27 10:43:40.629269 [INFO]    XmlParser: Parsed controller: spectrumwarsrx
+2013-Aug-27 10:43:40.629488 [INFO]    XmlParser: Parsed engine: phyengine1
+2013-Aug-27 10:43:40.629622 [INFO]    XmlParser: Parsed component: usrprx1
+2013-Aug-27 10:43:40.629700 [INFO]    XmlParser: Parsed component: ofdmdemod1
+2013-Aug-27 10:43:40.629781 [INFO]    XmlParser: Parsed component: filerawwriter1
+2013-Aug-27 10:43:40.629872 [INFO]    XmlParser: Parsed link: usrprx1 . output1 -> ofdmdemod1 . input1
+2013-Aug-27 10:43:40.629947 [INFO]    XmlParser: Parsed link: ofdmdemod1 . output1 -> filerawwriter1 . input1
+2013-Aug-27 10:43:40.778337 [INFO]    usrprx1: Creating the usrp device with args: 
+2013-Aug-27 10:43:40.889509 [FATAL]   System: Error loading radio: LookupError: KeyError: No devices found for ----->
+Empty Device Address
+2013-Aug-27 10:44:12.870972 [INFO]    System: Loading radio: spectrum_wars_rx.xml
+2013-Aug-27 10:44:12.871491 [INFO]    XmlParser: Parsed controller: spectrumwarsrx
+2013-Aug-27 10:44:12.871558 [INFO]    XmlParser: Parsed engine: phyengine1
+2013-Aug-27 10:44:12.871585 [INFO]    XmlParser: Parsed component: usrprx1
+2013-Aug-27 10:44:12.871622 [INFO]    XmlParser: Parsed component: ofdmdemod1
+2013-Aug-27 10:44:12.871666 [INFO]    XmlParser: Parsed component: filerawwriter1
+2013-Aug-27 10:44:12.871722 [INFO]    XmlParser: Parsed link: usrprx1 . output1 -> ofdmdemod1 . input1
+2013-Aug-27 10:44:12.871779 [INFO]    XmlParser: Parsed link: ofdmdemod1 . output1 -> filerawwriter1 . input1
+2013-Aug-27 10:44:12.890160 [INFO]    usrprx1: Creating the usrp device with args: 
+2013-Aug-27 10:44:16.282147 [INFO]    usrprx1: Using Device: Single USRP:
+  Device: USRP2 / N-Series Device
+  Mboard 0: N210r4
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: SBXv3 RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: SBXv3 TX
+
+2013-Aug-27 10:44:16.282630 [INFO]    usrprx1: Setting RX Rate: 0.2Msps...
+2013-Aug-27 10:44:16.283208 [INFO]    usrprx1: Actual RX Rate: 0.2Msps...
+2013-Aug-27 10:44:16.283363 [INFO]    usrprx1: Setting RX Frequency: 2490MHz...
+2013-Aug-27 10:44:16.295898 [INFO]    usrprx1: Actual RX Frequency: 2490MHz...
+2013-Aug-27 10:44:16.296042 [INFO]    usrprx1: RX LO offset: 0.4MHz...
+2013-Aug-27 10:44:16.296178 [INFO]    usrprx1: Setting device timestamp to 0...
+2013-Aug-27 10:44:16.296306 [INFO]    usrprx1: Using RX Antenna: RX2
+2013-Aug-27 10:44:16.297250 [INFO]    usrprx1: Gain range: (0, 38, 0.05)
+
+2013-Aug-27 10:44:16.297270 [INFO]    usrprx1: Setting Gain: 1
+2013-Aug-27 10:44:16.298243 [INFO]    usrprx1: Actual gain: 1
+2013-Aug-27 10:44:17.299192 [INFO]    usrprx1: Checking RX: LO: locked...
+2013-Aug-27 10:44:17.419393 [INFO]    System: Starting radio
+2013-Aug-27 10:44:17.419439 [INFO]    ControllerManager: Controller spectrumwarsrx started.
+2013-Aug-27 10:44:19.256423 [DEBUG]   SpectrumWarsRx: Frequency: 2490.1MHz
+2013-Aug-27 10:44:19.259176 [INFO]    usrprx1: Setting RX Frequency: 2490.1MHz...
+2013-Aug-27 10:44:19.261011 [INFO]    phyengine1: Reconfigured parameter frequency : 2.4901e+09
+2013-Aug-27 10:44:26.827902 [DEBUG]   SpectrumWarsRx: Frequency: 2490MHz
+2013-Aug-27 10:44:26.831461 [INFO]    usrprx1: Setting RX Frequency: 2490MHz...
+2013-Aug-27 10:44:26.833763 [INFO]    phyengine1: Reconfigured parameter frequency : 2.49e+09
+2013-Aug-27 10:48:17.985634 [INFO]    ofdmdemod1: Frame succcess rate: 100%
+2013-Aug-27 10:48:22.537338 [WARNING] ofdmdemod1: CRC mismatch - dropping frame.
+2013-Aug-27 10:48:24.007445 [WARNING] ofdmdemod1: CRC mismatch - dropping frame.
+2013-Aug-27 10:48:30.252747 [INFO]    ofdmdemod1: Frame succcess rate: 99.8%
+2013-Aug-27 10:48:35.302115 [WARNING] ofdmdemod1: CRC mismatch - dropping frame.
+2013-Aug-27 10:48:35.792276 [WARNING] ofdmdemod1: CRC mismatch - dropping frame.
+2013-Aug-27 10:48:38.741730 [WARNING] ofdmdemod1: CRC mismatch - dropping frame.
+2013-Aug-27 10:48:41.486133 [DEBUG]   SpectrumWarsRx: Frequency: 2490.1MHz
+2013-Aug-27 10:48:41.486383 [INFO]    usrprx1: Setting RX Frequency: 2490.1MHz...
+2013-Aug-27 10:48:41.488222 [INFO]    phyengine1: Reconfigured parameter frequency : 2.4901e+09
+2013-Aug-27 10:48:41.496829 [WARNING] ofdmdemod1: CRC mismatch - dropping frame.
+2013-Aug-27 10:48:41.511447 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.527470 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.538582 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.547818 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.563839 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.573156 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.589142 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.598444 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.609484 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.623636 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.634650 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.650792 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.660124 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.671099 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.685073 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.696084 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.710515 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.721454 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.732455 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.746810 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.757789 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.766941 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.783157 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.794159 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.808517 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.819491 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.828594 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.844860 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.854033 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.870217 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.881187 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.890343 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.906527 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.915754 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.931938 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.941075 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.952040 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.966393 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.977461 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:41.988366 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.002778 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.013766 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.028131 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.039094 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.050071 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.064479 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.075455 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.089845 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.100792 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.109962 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.126183 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.137130 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.151551 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.162518 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.171654 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.187873 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.197005 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.213258 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.224224 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.233351 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.249579 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.258734 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.269699 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.284445 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.295063 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.309481 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.320449 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.331387 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.345777 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.356758 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.371201 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.382140 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.393088 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.407470 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.418397 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.432900 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.443843 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.452975 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.469188 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.480166 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.494564 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:42.505542 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.514680 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.514744 [INFO]    ofdmdemod1: Frame succcess rate: 91.3%
+2013-Aug-27 10:48:42.530899 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.540055 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.551008 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.567242 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.576389 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.592611 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.601773 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.612752 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.627132 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.638082 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.652501 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.663452 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.674493 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.689035 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:42.699787 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.714213 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.725158 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.736174 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.750509 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.761491 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.775925 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.786874 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.796041 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.812219 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.823195 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.832321 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.848563 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.857775 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.873931 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.883077 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.894047 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.910263 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.919384 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.935638 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.944796 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.955765 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.970123 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.981091 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:42.995534 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.006482 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.017448 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.031827 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.042797 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.053792 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.068212 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.079153 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.093542 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.104483 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.113677 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.129907 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.139148 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.155251 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.166186 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.175362 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.191617 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.200738 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.216963 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.226111 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.237061 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.253281 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.262440 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.278674 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.287813 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.298765 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.313164 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.324144 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.335095 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.349520 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.360464 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.374845 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.385844 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.396796 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.411217 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.422166 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.436550 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.447543 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.456678 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.472868 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.482056 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.498279 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.509248 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.518385 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.534597 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.543756 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.560006 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.569135 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.580092 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.596306 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.605459 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.616464 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.630837 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.641805 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.656199 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.667161 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.678174 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.692536 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.703493 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.717910 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.728861 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.739799 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.754211 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.765195 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.779574 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.790568 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.799678 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.815864 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.825084 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.836027 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.852267 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.861385 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.877647 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.886799 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.897764 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.912155 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.923104 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.939340 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.948485 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.959459 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.973856 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.984809 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:43.999232 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:44.010227 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.021148 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.035533 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.046525 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.060950 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.071875 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.082851 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.097245 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.108213 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.117369 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.133654 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.142737 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.158952 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.168116 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.179066 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.195267 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.204441 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.220660 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.229818 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.240766 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.255213 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.266108 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.282371 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.291471 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.302468 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.316832 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.327848 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.342264 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.353223 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.364171 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.378596 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.389548 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.398685 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.414927 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.425878 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.440288 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.451242 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.460390 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.476620 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.485774 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.501956 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:44.511130 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.522091 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.538297 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.547461 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.563708 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.572830 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.583802 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.598197 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.609166 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.620103 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.634546 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.645494 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.659902 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:44.670865 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.681818 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.696243 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.707142 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.721619 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.732567 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.741698 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.757944 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.768937 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.783319 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.794278 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.803389 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.819623 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.828787 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.845033 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.854160 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.865103 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.881326 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.890530 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.901448 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.915860 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.926826 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.941171 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.952228 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.963154 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.977558 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:44.988532 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:45.002933 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.013949 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.024856 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.039264 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.050234 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.064643 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.075570 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.084746 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.100938 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.111932 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.126355 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.137273 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:45.146445 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.162648 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.171818 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.182767 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.197156 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.208145 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.224383 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.233468 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.244486 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.258876 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.269848 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.284264 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.295224 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.306176 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.320536 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.331549 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.345987 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.356924 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.367878 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.382275 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.393248 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.402388 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.418630 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.427766 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.443942 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.454952 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.464093 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.480329 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.489466 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.505710 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.514840 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.525806 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.540186 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.551114 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.567404 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.576540 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.587550 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.601893 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.612869 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.627298 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.638243 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.649233 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.663601 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.674572 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.683688 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.699948 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.710939 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.725307 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.736275 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.745429 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.761672 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.770831 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.787015 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.797977 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.807127 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.823354 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.832526 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.848729 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.857863 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.868830 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.883214 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.894250 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.910403 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.919567 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.930532 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.944922 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.955874 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.966858 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.981266 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:45.992182 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.006629 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.017621 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.026747 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.042964 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.053937 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.068342 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.079331 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.088448 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.104686 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.113822 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.130050 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.140976 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.150144 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.166355 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.175520 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.186474 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.200897 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.211847 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.226263 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.237222 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.248141 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.262560 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.273556 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.287979 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.298927 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.309880 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.324262 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.335251 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.349709 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.360627 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.369780 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.385952 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.396955 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.411371 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.422326 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:46.431471 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.447686 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.456838 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.467797 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.484034 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.493170 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.509394 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.518544 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.529534 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.543918 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.554872 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.569290 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.580272 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.591287 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.605633 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.616574 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.631000 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.641945 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.652965 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.667298 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.678276 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.692711 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.703649 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.712834 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.729008 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.739977 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.749131 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.765348 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.774551 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.790726 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.799867 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.810789 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.827053 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.836176 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.852428 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.861580 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.872486 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.886908 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.897893 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.912323 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.923271 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.934238 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:46.948620 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.959595 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.970553 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.984975 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:46.995936 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.010326 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.021313 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.030440 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.046736 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.055823 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.072036 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.083024 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.092143 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.108407 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.117542 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.133751 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.142903 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.153857 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.170076 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.179194 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.195460 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.204604 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.215549 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.229967 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.240930 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.251879 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.266265 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.277258 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.291673 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.302631 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.313602 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.327970 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.339167 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.353386 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.364336 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.373473 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.389728 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.398836 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.415068 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.426037 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.435217 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.451384 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.460546 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.476802 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.485920 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.496873 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.513094 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.522248 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.533247 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.547626 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.558578 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.572994 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.583960 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.594967 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.609327 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.620275 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.634698 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.645667 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.656586 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.670999 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.681979 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.696409 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.707353 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.716556 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.732689 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.741867 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.752835 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.769056 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.778179 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.794418 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.803586 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.814538 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.828948 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.839876 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.856126 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.865256 [WARNING] ofdmdemod1: Invalid frame length - dropping frame.
+2013-Aug-27 10:48:47.876237 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.890644 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.901607 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.916018 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.927014 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.937945 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.952320 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.963316 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.977734 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.988709 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:47.999586 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.014030 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.024996 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.034151 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.050418 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.059527 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.075740 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.084899 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.095853 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.112064 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.121229 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.137449 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.146555 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.157553 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.172009 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.182931 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.199160 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.208263 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.219258 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.233636 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.244599 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.259054 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.269990 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.280959 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.295341 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.306337 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.315475 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.331662 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.342673 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.357076 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.368035 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.377176 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.393413 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.402549 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.418787 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.427926 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.439201 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.455034 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.464251 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.480495 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.489635 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.500539 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.514948 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.525915 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.536959 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.551293 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.562216 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.576631 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.587607 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.598582 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.612972 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.623919 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.638344 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.649292 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.658529 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.674671 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.685633 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.700048 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.710995 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.720165 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.736351 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.745507 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.761760 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.770889 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.781899 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.798058 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.807186 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.818193 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.832592 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.843573 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.857952 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.869002 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.879885 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.894314 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.905293 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.919684 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.930744 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.941659 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.956049 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.966992 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.981425 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:48.992424 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.001527 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.017731 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.028724 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.043140 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.054062 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.063178 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.079437 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.088617 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.099556 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.115848 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.124935 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.141155 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.150396 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.161256 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.175646 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.186637 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.201040 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.212011 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.222963 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.237361 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.248337 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.262777 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.273747 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.284660 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.299044 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.310037 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.319180 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.335390 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.344554 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.360772 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.371739 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.380880 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.397121 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.406250 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.422444 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.431626 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.442584 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.458825 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.467956 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.484193 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.493334 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.504285 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.518679 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.529669 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.544089 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.555032 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.565983 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.580388 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.591364 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.600484 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.616736 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.627729 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.642097 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.653068 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.662190 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.678440 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:49.687575 [WARNING] ofdmdemod1: Invalid modulation depth - dropping frame.
+2013-Aug-27 10:48:54.768557 [INFO]    ofdmdemod1: Frame succcess rate: 41.4%
+2013-Aug-27 10:49:07.010355 [INFO]    ofdmdemod1: Frame succcess rate: 100%
+2013-Aug-27 10:49:09.217554 [INFO]    System: Stopping radio
+2013-Aug-27 10:49:09.217696 [INFO]    ControllerManager: Controller spectrumwarsrx stopped.
+2013-Aug-27 10:49:09.217891 [INFO]    SpectrumWarsRx: Controller thread in SpectrumWarsRx interrupted
+2013-Aug-27 10:49:09.221454 [INFO]    phyengine1: Thread in Engine phyengine1 interrupted
+2013-Aug-27 10:49:09.221692 [INFO]    System: Unloading radio
+2013-Aug-27 10:49:09.221915 [INFO]    SpectrumWarsRx: Controller thread in SpectrumWarsRx interrupted
+2013-Aug-27 10:49:09.222114 [INFO]    ControllerManager: Controller spectrumwarsrx unloaded.
+2013-Aug-27 10:49:09.238684 [INFO]    usrprx1: Average time taken per process() call = 00:00:00.004660
+2013-Aug-27 10:49:09.239004 [INFO]    ofdmdemod1: Average time taken per process() call = 00:00:00.000446
+2013-Aug-27 10:49:09.239248 [INFO]    filerawwriter1: Average time taken per process() call = 00:00:00.000018
+2013-Aug-27 10:49:22.518110 [INFO]    System: Loading radio: spectrum_wars_display.xml
+2013-Aug-27 10:49:22.518421 [INFO]    XmlParser: Parsed controller: spectrumwarsdisplay
+2013-Aug-27 10:49:22.518450 [INFO]    XmlParser: Parsed engine: phyengine1
+2013-Aug-27 10:49:22.518469 [INFO]    XmlParser: Parsed component: usrprx1
+2013-Aug-27 10:49:22.518493 [INFO]    XmlParser: Parsed component: spectrogram1
+2013-Aug-27 10:49:22.518683 [INFO]    XmlParser: Parsed link: usrprx1 . output1 -> spectrogram1 . input1
+2013-Aug-27 10:49:22.536485 [INFO]    usrprx1: Creating the usrp device with args: 
+2013-Aug-27 10:49:22.684563 [DEBUG]   SpectrumWarsDisplay: Frequency: 2402500000 Rate: 5000000
+2013-Aug-27 10:49:24.101677 [INFO]    usrprx1: Using Device: Single USRP:
+  Device: USRP2 / N-Series Device
+  Mboard 0: N210r4
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: SBXv3 RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: SBXv3 TX
+
+2013-Aug-27 10:49:24.102205 [INFO]    usrprx1: Setting RX Rate: 5Msps...
+2013-Aug-27 10:49:24.102667 [INFO]    usrprx1: Actual RX Rate: 5Msps...
+2013-Aug-27 10:49:24.102750 [INFO]    usrprx1: Setting RX Frequency: 2402.5MHz...
+2013-Aug-27 10:49:24.104817 [INFO]    usrprx1: Actual RX Frequency: 2402.5MHz...
+2013-Aug-27 10:49:24.104896 [INFO]    usrprx1: RX LO offset: 10MHz...
+2013-Aug-27 10:49:24.104974 [INFO]    usrprx1: Setting device timestamp to 0...
+2013-Aug-27 10:49:24.105229 [INFO]    usrprx1: Using RX Antenna: RX2
+2013-Aug-27 10:49:24.105683 [INFO]    usrprx1: Gain range: (0, 38, 0.05)
+
+2013-Aug-27 10:49:24.105755 [INFO]    usrprx1: Setting Gain: 1
+2013-Aug-27 10:49:24.107884 [INFO]    usrprx1: Actual gain: 1
+2013-Aug-27 10:49:25.108343 [INFO]    usrprx1: Checking RX: LO: locked...
+2013-Aug-27 10:49:25.213068 [INFO]    System: Starting radio
+2013-Aug-27 10:49:25.213130 [INFO]    ControllerManager: Controller spectrumwarsdisplay started.
+2013-Aug-27 10:49:47.558477 [INFO]    System: Stopping radio
+2013-Aug-27 10:49:47.558536 [INFO]    ControllerManager: Controller spectrumwarsdisplay stopped.
+2013-Aug-27 10:49:47.558679 [INFO]    SpectrumWarsDisplay: Controller thread in SpectrumWarsDisplay interrupted
+2013-Aug-27 10:49:47.558840 [INFO]    phyengine1: Thread in Engine phyengine1 interrupted
+2013-Aug-27 10:49:47.559037 [INFO]    System: Unloading radio
+2013-Aug-27 10:49:47.559322 [INFO]    SpectrumWarsDisplay: Controller thread in SpectrumWarsDisplay interrupted
+2013-Aug-27 10:49:47.559866 [INFO]    ControllerManager: Controller spectrumwarsdisplay unloaded.
+2013-Aug-27 10:49:47.563645 [INFO]    usrprx1: Average time taken per process() call = 00:00:00.000064
+2013-Aug-27 10:49:47.563753 [INFO]    spectrogram1: Average time taken per process() call = 00:00:00.000138
+2013-Aug-27 10:50:03.040791 [INFO]    System: Loading radio: spectrum_wars_display.xml
+2013-Aug-27 10:50:03.041215 [INFO]    XmlParser: Parsed controller: spectrumwarsdisplay
+2013-Aug-27 10:50:03.041253 [INFO]    XmlParser: Parsed engine: phyengine1
+2013-Aug-27 10:50:03.041277 [INFO]    XmlParser: Parsed component: usrprx1
+2013-Aug-27 10:50:03.041308 [INFO]    XmlParser: Parsed component: spectrogram1
+2013-Aug-27 10:50:03.041361 [INFO]    XmlParser: Parsed link: usrprx1 . output1 -> spectrogram1 . input1
+2013-Aug-27 10:50:03.055013 [INFO]    usrprx1: Creating the usrp device with args: 
+2013-Aug-27 10:50:03.164753 [DEBUG]   SpectrumWarsDisplay: Frequency: 2492500000 Rate: 5000000
+2013-Aug-27 10:50:04.606018 [INFO]    usrprx1: Using Device: Single USRP:
+  Device: USRP2 / N-Series Device
+  Mboard 0: N210r4
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: SBXv3 RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: SBXv3 TX
+
+2013-Aug-27 10:50:04.606478 [INFO]    usrprx1: Setting RX Rate: 5Msps...
+2013-Aug-27 10:50:04.606908 [INFO]    usrprx1: Actual RX Rate: 5Msps...
+2013-Aug-27 10:50:04.606991 [INFO]    usrprx1: Setting RX Frequency: 2492.5MHz...
+2013-Aug-27 10:50:04.609395 [INFO]    usrprx1: Actual RX Frequency: 2492.5MHz...
+2013-Aug-27 10:50:04.609478 [INFO]    usrprx1: RX LO offset: 10MHz...
+2013-Aug-27 10:50:04.609598 [INFO]    usrprx1: Setting device timestamp to 0...
+2013-Aug-27 10:50:04.609940 [INFO]    usrprx1: Using RX Antenna: RX2
+2013-Aug-27 10:50:04.610375 [INFO]    usrprx1: Gain range: (0, 38, 0.05)
+
+2013-Aug-27 10:50:04.610448 [INFO]    usrprx1: Setting Gain: 1
+2013-Aug-27 10:50:04.611986 [INFO]    usrprx1: Actual gain: 1
+2013-Aug-27 10:50:05.612993 [INFO]    usrprx1: Checking RX: LO: locked...
+2013-Aug-27 10:50:05.725146 [INFO]    System: Starting radio
+2013-Aug-27 10:50:05.725414 [INFO]    ControllerManager: Controller spectrumwarsdisplay started.
+2013-Aug-27 10:53:49.459135 [INFO]    System: Stopping radio
+2013-Aug-27 10:53:49.459217 [INFO]    ControllerManager: Controller spectrumwarsdisplay stopped.
+2013-Aug-27 10:53:49.459351 [INFO]    SpectrumWarsDisplay: Controller thread in SpectrumWarsDisplay interrupted
+2013-Aug-27 10:53:49.459460 [INFO]    phyengine1: Thread in Engine phyengine1 interrupted
+2013-Aug-27 10:53:49.459608 [INFO]    System: Unloading radio
+2013-Aug-27 10:53:49.459867 [INFO]    SpectrumWarsDisplay: Controller thread in SpectrumWarsDisplay interrupted
+2013-Aug-27 10:53:49.460305 [INFO]    ControllerManager: Controller spectrumwarsdisplay unloaded.
+2013-Aug-27 10:53:49.464118 [INFO]    usrprx1: Average time taken per process() call = 00:00:00.000061
+2013-Aug-27 10:53:49.464207 [INFO]    spectrogram1: Average time taken per process() call = 00:00:00.000141
+2013-Aug-27 11:08:49.567580 [INFO]    System: Loading radio: spectrum_wars_display.xml
+2013-Aug-27 11:08:49.567927 [INFO]    XmlParser: Parsed controller: spectrumwarsdisplay
+2013-Aug-27 11:08:49.567989 [INFO]    XmlParser: Parsed engine: phyengine1
+2013-Aug-27 11:08:49.568012 [INFO]    XmlParser: Parsed component: usrprx1
+2013-Aug-27 11:08:49.568038 [INFO]    XmlParser: Parsed component: spectrogram1
+2013-Aug-27 11:08:49.568081 [INFO]    XmlParser: Parsed link: usrprx1 . output1 -> spectrogram1 . input1
+2013-Aug-27 11:08:49.582188 [INFO]    usrprx1: Creating the usrp device with args: 
+2013-Aug-27 11:08:49.753286 [DEBUG]   SpectrumWarsDisplay: Frequency: 2492500000 Rate: 5000000
+2013-Aug-27 11:08:51.131168 [INFO]    usrprx1: Using Device: Single USRP:
+  Device: USRP2 / N-Series Device
+  Mboard 0: N210r4
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: SBXv3 RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: SBXv3 TX
+
+2013-Aug-27 11:08:51.131701 [INFO]    usrprx1: Setting RX Rate: 5Msps...
+2013-Aug-27 11:08:51.132153 [INFO]    usrprx1: Actual RX Rate: 5Msps...
+2013-Aug-27 11:08:51.132238 [INFO]    usrprx1: Setting RX Frequency: 2492.5MHz...
+2013-Aug-27 11:08:51.134344 [INFO]    usrprx1: Actual RX Frequency: 2492.5MHz...
+2013-Aug-27 11:08:51.134423 [INFO]    usrprx1: RX LO offset: 10MHz...
+2013-Aug-27 11:08:51.134535 [INFO]    usrprx1: Setting device timestamp to 0...
+2013-Aug-27 11:08:51.134774 [INFO]    usrprx1: Using RX Antenna: RX2
+2013-Aug-27 11:08:51.135456 [INFO]    usrprx1: Gain range: (0, 38, 0.05)
+
+2013-Aug-27 11:08:51.135565 [INFO]    usrprx1: Setting Gain: 1
+2013-Aug-27 11:08:51.137237 [INFO]    usrprx1: Actual gain: 1
+2013-Aug-27 11:08:52.138300 [INFO]    usrprx1: Checking RX: LO: locked...
+2013-Aug-27 11:08:52.250268 [INFO]    System: Starting radio
+2013-Aug-27 11:08:52.250428 [INFO]    ControllerManager: Controller spectrumwarsdisplay started.
