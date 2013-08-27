@@ -8,7 +8,7 @@
     <parameter name="minbandwidth" value="250000"/>
     <parameter name="maxbandwidth" value="5000000"/>
     <parameter name="mingain" value="0"/>
-    <parameter name="maxgain" value="1"/>
+    <parameter name="maxgain" value="20"/>
     <parameter name="frontendrx" value="usrprx1"/>
     <parameter name="frontendrxengine" value="phyengine1"/>
   </controller>
@@ -17,7 +17,8 @@
 
     <component name="usrprx1" class="usrprx">
       <parameter name="frequency" value="2490000000"/>
-      <parameter name="rate" value="200000"/>
+      <parameter name="rate" value="250000"/>
+      <parameter name="gain" value="0"/>
       <port name="output1" class="output"/>
     </component>
 
