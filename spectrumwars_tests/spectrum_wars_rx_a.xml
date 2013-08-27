@@ -20,6 +20,8 @@
     <parameter name="triggernum" value="1000"/>
   </controller>
 
+  <controller class="spectrogramdisplay"/>
+
   <engine name="phyengine1" class="phyengine">
 
     <component name="usrprx1" class="usrprx">
@@ -29,6 +31,18 @@
       <parameter name="fixlooffset" value="8000000"/>
       <port name="output1" class="output"/>
     </component>
+
+    <component name="spectrogram1" class="spectrogram">
+      <parameter name="isprobe" value="true"/>
+      <parameter name="issink" value="false"/>
+      <parameter name="nwindows" value="128"/>
+      <port name="input1" class="input"/>
+      <port name="output1" class="output"/>
+    </component>
+
+  </engine>
+
+  <engine name="phyengine2" class="phyengine">
 
     <component name="ofdmdemod1" class="ofdmdemodulator">
       <parameter name="debug" value="false"/>
@@ -52,7 +66,8 @@
 
   </engine>
 
-  <link source="usrprx1.output1" sink="ofdmdemod1.input1" />
+  <link source="usrprx1.output1" sink="spectrogram1.input1" />
+  <link source="spectrogram1.output1" sink="ofdmdemod1.input1" />
   <link source="ofdmdemod1.output1" sink="datasetcounter1.input1" />
   <link source="datasetcounter1.output1" sink="filerawwriter1.input1" />
 
