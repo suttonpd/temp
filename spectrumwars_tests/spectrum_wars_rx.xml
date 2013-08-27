@@ -19,6 +19,7 @@
       <parameter name="frequency" value="2490000000"/>
       <parameter name="rate" value="250000"/>
       <parameter name="gain" value="0"/>
+      <parameter name="fixlooffset" value="8000000"/>
       <port name="output1" class="output"/>
     </component>
 
