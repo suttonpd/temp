@@ -9,8 +9,8 @@
     <parameter name="maxbandwidth" value="5000000"/>
     <parameter name="mingain" value="0"/>
     <parameter name="maxgain" value="1"/>
-    <parameter name="frontendrx" value="usrptx1"/>
-    <parameter name="frontendrxengine" value="phyengine1"/>
+    <parameter name="frontendtx" value="usrptx1"/>
+    <parameter name="frontendtxengine" value="phyengine1"/>
   </controller>
 
   <engine name="phyengine1" class="phyengine">
