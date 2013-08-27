@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<softwareradio name="Radio1">
+
+  <controller class="spectrumwarsrxcounter"/>
+  <controller class="spectrumwarsrx"/>
+
+  <engine name="phyengine1" class="phyengine">
+
+    <component name="filerawreader1" class="filerawreader">
+      <parameter name="filename" value="data.bin"/>
+      <parameter name="blocksize" value="1024"/>
+      <parameter name="datatype" value="complex<float>"/>
+      <port name="output1" class="output"/>
+    </component>
+
+    <component name="datasetcounter1" class="datasetcounter">
+      <port name="input1" class="input"/>
+      <port name="output1" class="output"/>
+    </component>
+
+    <component name="filerawwriter1" class="filerawwritertemplate">
+      <parameter name="filename" value="out.bin"/>
+      <port name="input1" class="input"/>
+    </component>
+
+  </engine>
+
+  <link source="filerawreader1.output1" sink="datasetcounter1.input1" />
+  <link source="datasetcounter1.output1" sink="filerawwriter1.input1" />
+
+</softwareradio>

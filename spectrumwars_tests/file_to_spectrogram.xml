@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<softwareradio name="Radio1">
+
+  <controller class="spectrumwarsdisplay"/>
+
+  <engine name="phyengine1" class="phyengine">
+
+    <component name="filerawreader1" class="filerawreader">
+      <parameter name="filename" value="data.bin"/>
+      <parameter name="blocksize" value="1024"/>
+      <parameter name="datatype" value="complex<float>"/>
+      <port name="output1" class="output"/>
+    </component>
+
+    <component name="spectrogram1" class="spectrogram">
+      <parameter name="isprobe" value="true"/>
+      <parameter name="issink" value="true"/>
+      <parameter name="nwindows" value="128"/>
+      <port name="input1" class="input"/>
+      <port name="output1" class="output"/>
+    </component>
+
+  </engine>
+
+  <link source="filerawreader1.output1" sink="spectrogram1.input1" />
+
+</softwareradio>
