@@ -27,7 +27,7 @@
       <parameter name="debug" value="false"/>
       <parameter name="numdatacarriers" value="192"/>
       <parameter name="numpilotcarriers" value="8"/>
-      <parameter name="numguardcarriers" value="55"/>
+      <parameter name="numguardcarriers" value="119"/>
       <parameter name="cyclicprefixlength" value="16"/>
       <port name="input1" class="input"/>
       <port name="output1" class="output"/>
