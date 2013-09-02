@@ -3,8 +3,8 @@
 <softwareradio name="Radio1">
 
   <controller class="spectrumwarstx">
-    <parameter name="minfrequency" value="2491000000"/>
-    <parameter name="maxfrequency" value="2494000000"/>
+    <parameter name="minfrequency" value="2490500000"/>
+    <parameter name="maxfrequency" value="2494500000"/>
     <parameter name="minbandwidth" value="250000"/>
     <parameter name="maxbandwidth" value="2000000"/>
     <parameter name="mingain" value="0"/>
@@ -39,7 +39,7 @@
     </component>
 
     <component name="usrptx1" class="usrptx">
-      <parameter name="frequency" value="2491000000"/>
+      <parameter name="frequency" value="2490500000"/>
       <parameter name="rate" value="250000"/>
       <parameter name="gain" value="0"/>
       <parameter name="fixlooffset" value="8000000"/>
