@@ -3,6 +3,10 @@
 <softwareradio name="Radio1">
 
   <controller class="spectrumwarsrx">
+    <parameter name="id" value="TeamA"/>
+    <parameter name="address" value="192.168.2.1"/>
+    <parameter name="port" value="12345"/>
+    <parameter name="triggernum" value="500"/>
     <parameter name="minfrequency" value="2490500000"/>
     <parameter name="maxfrequency" value="2494500000"/>
     <parameter name="minbandwidth" value="250000"/>
@@ -11,13 +15,6 @@
     <parameter name="maxgain" value="20"/>
     <parameter name="frontendrx" value="usrprx1"/>
     <parameter name="frontendrxengine" value="phyengine1"/>
-  </controller>
-
-  <controller class="spectrumwarsrxcounter">
-    <parameter name="id" value="TeamA"/>
-    <parameter name="address" value="192.168.2.1"/>
-    <parameter name="port" value="12345"/>
-    <parameter name="triggernum" value="500"/>
   </controller>
 
   <engine name="phyengine1" class="phyengine">
