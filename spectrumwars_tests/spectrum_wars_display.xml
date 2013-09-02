@@ -6,7 +6,7 @@
     <parameter name="spectrogramcomponent" value="spectrogram1"/>
     <parameter name="numrows" value="512"/>
     <parameter name="port" value="12345"/>
-    <parameter name="wincount" value="50000"/>
+    <parameter name="wincount" value="25000"/>
   </controller>
 
   <engine name="phyengine1" class="phyengine">
