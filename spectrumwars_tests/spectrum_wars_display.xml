@@ -14,6 +14,8 @@
     <component name="usrprx1" class="usrprx">
       <parameter name="frequency" value="2492500000"/>
       <parameter name="rate" value="5000000"/>
+      <parameter name="gain" value="10"/>
+      <parameter name="fixlooffset" value="8000000"/>
       <port name="output1" class="output"/>
     </component>
 
